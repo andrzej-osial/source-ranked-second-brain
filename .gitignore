@@ -1,0 +1,61 @@
+# ── Obsidian ─────────────────────────────────────────────
+.obsidian/workspace*
+.obsidian/cache
+.obsidian/.cache
+.trash/
+
+# ── System ───────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+*.tmp
+*.bak
+~$*
+
+# ── Stan sesji agenta (nie jest wiedzą o budowie) ────────
+session-logs/
+_ops/tmp/
+.claude/settings.local.json
+
+# ── Binaria źródłowe — nigdy do publicznego repo ─────────
+# Prawdziwe projekty, oferty, umowy, zdjęcia i maile zawierają dane osobowe
+# i tajemnice ofert. Demo w raw/ używa wyłącznie fikcyjnych plików .md.
+*.pdf
+*.PDF
+*.jpg
+*.jpeg
+*.JPG
+*.png
+*.heic
+*.HEIC
+*.mp4
+*.mov
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.odt
+*.eml
+*.msg
+*.zip
+
+# ── WŁASNA BUDOWA ────────────────────────────────────────
+# Jeśli prowadzisz w tym repo swoją budowę, a repo jest (lub może być) publiczne,
+# odkomentuj blok poniżej: zignoruje całą zawartość raw/ poza rejestrem i .gitkeep.
+# Pamiętaj: plik raz wypchnięty zostaje w historii git nawet po usunięciu.
+#
+# raw/**
+# !raw/**/
+# !raw/RAW_INDEX.md
+# !raw/README.md
+# !raw/**/.gitkeep
+#
+# Rozważ też ignorowanie katalogów z danymi osób i kwotami:
+# 07_Wykonawcy_i_Osoby/*
+# !07_Wykonawcy_i_Osoby/_TEMPLATE_*
+# 12_Komunikacja/
+
+# ── Zrzuty ekranu do README (wyjątek od reguły binariów) ──
+!docs/img/*.png
+!docs/img/*.gif
+!docs/img/*.jpg

@@ -1,0 +1,51 @@
+{
+  "collapse-filter": false,
+  "search": "-file:readme -file:_TEMPLATE -file:LICENSE -file:CHANGELOG",
+  "showTags": false,
+  "showAttachments": false,
+  "hideUnresolved": true,
+  "showOrphans": true,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "path:06_Budzet_i_Koszty  ",
+      "color": {
+        "a": 1,
+        "rgb": 14048348
+      }
+    },
+    {
+      "query": "path:09_Ryzyka_i_Problemy  ",
+      "color": {
+        "a": 1,
+        "rgb": 16556291
+      }
+    },
+    {
+      "query": "path:15_Knowledge_Base  ",
+      "color": {
+        "a": 1,
+        "rgb": 13816528
+      }
+    },
+    {
+      "query": "path:raw  ",
+      "color": {
+        "a": 1,
+        "rgb": 6062550
+      }
+    }
+  ],
+  "collapse-display": false,
+  "showArrow": false,
+  "textFadeMultiplier": 0,
+  "nodeSizeMultiplier": 1.63453658536585,
+  "lineSizeMultiplier": 1,
+  "collapse-forces": false,
+  "centerStrength": 0.518713248970312,
+  "repelStrength": 17.3880216304459,
+  "linkStrength": 1,
+  "linkDistance": 250,
+  "scale": 0.7132754626224452,
+  "close": false
+}
